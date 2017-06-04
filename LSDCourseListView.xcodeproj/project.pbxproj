@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5D86E41EE3B3E400266D96 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D86E31EE3B3E400266D96 /* main.m */; };
+		EA5D86E71EE3B3E400266D96 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D86E61EE3B3E400266D96 /* AppDelegate.m */; };
+		EA5D86EA1EE3B3E400266D96 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D86E91EE3B3E400266D96 /* ViewController.m */; };
+		EA5D86ED1EE3B3E400266D96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D86EB1EE3B3E400266D96 /* Main.storyboard */; };
+		EA5D86EF1EE3B3E400266D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA5D86EE1EE3B3E400266D96 /* Assets.xcassets */; };
+		EA5D86F21EE3B3E400266D96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5D86F01EE3B3E400266D96 /* LaunchScreen.storyboard */; };
+		EA5D86FD1EE3B3E400266D96 /* LSDCourseListViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D86FC1EE3B3E400266D96 /* LSDCourseListViewTests.m */; };
+		EA5D87081EE3B3E400266D96 /* LSDCourseListViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87071EE3B3E400266D96 /* LSDCourseListViewUITests.m */; };
+		EA5D87521EE4196800266D96 /* LSDCourseListModel.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D873E1EE4196800266D96 /* LSDCourseListModel.m */; };
+		EA5D87531EE4196800266D96 /* LSDCourseListView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87401EE4196800266D96 /* LSDCourseListView.m */; };
+		EA5D87541EE4196800266D96 /* LSDCourseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87421EE4196800266D96 /* LSDCourseTableViewCell.m */; };
+		EA5D87551EE4196800266D96 /* LSDCourseTableViewCellXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5D87431EE4196800266D96 /* LSDCourseTableViewCellXib.xib */; };
+		EA5D87561EE4196800266D96 /* LSDHeaderItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87451EE4196800266D96 /* LSDHeaderItemView.m */; };
+		EA5D87571EE4196800266D96 /* LSDHeaderItemViewXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5D87461EE4196800266D96 /* LSDHeaderItemViewXib.xib */; };
+		EA5D87581EE4196800266D96 /* LSDTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87481EE4196800266D96 /* LSDTimeTableViewCell.m */; };
+		EA5D87591EE4196800266D96 /* LSDTimeTableViewCellXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA5D87491EE4196800266D96 /* LSDTimeTableViewCellXib.xib */; };
+		EA5D875A1EE4196800266D96 /* Math.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D874B1EE4196800266D96 /* Math.m */; };
+		EA5D875B1EE4196800266D96 /* NSCalendar+LSDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D874D1EE4196800266D96 /* NSCalendar+LSDExtension.m */; };
+		EA5D875C1EE4196800266D96 /* UITableViewCell+LSDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D874F1EE4196800266D96 /* UITableViewCell+LSDExtension.m */; };
+		EA5D875D1EE4196800266D96 /* UIView+LSDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5D87511EE4196800266D96 /* UIView+LSDExtension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5D86F91EE3B3E400266D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5D86D71EE3B3E400266D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5D86DE1EE3B3E400266D96;
+			remoteInfo = LSDCourseListView;
+		};
+		EA5D87041EE3B3E400266D96 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5D86D71EE3B3E400266D96 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5D86DE1EE3B3E400266D96;
+			remoteInfo = LSDCourseListView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5D86DF1EE3B3E400266D96 /* LSDCourseListView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSDCourseListView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D86E31EE3B3E400266D96 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA5D86E51EE3B3E400266D96 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA5D86E61EE3B3E400266D96 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA5D86E81EE3B3E400266D96 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA5D86E91EE3B3E400266D96 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA5D86EC1EE3B3E400266D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA5D86EE1EE3B3E400266D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA5D86F11EE3B3E400266D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA5D86F31EE3B3E400266D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D86F81EE3B3E400266D96 /* LSDCourseListViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDCourseListViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D86FC1EE3B3E400266D96 /* LSDCourseListViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDCourseListViewTests.m; sourceTree = "<group>"; };
+		EA5D86FE1EE3B3E400266D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D87031EE3B3E400266D96 /* LSDCourseListViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LSDCourseListViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5D87071EE3B3E400266D96 /* LSDCourseListViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSDCourseListViewUITests.m; sourceTree = "<group>"; };
+		EA5D87091EE3B3E400266D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5D87181EE3B5D700266D96 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		EA5D872A1EE3CF2800266D96 /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
+		EA5D873D1EE4196800266D96 /* LSDCourseListModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCourseListModel.h; sourceTree = "<group>"; };
+		EA5D873E1EE4196800266D96 /* LSDCourseListModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCourseListModel.m; sourceTree = "<group>"; };
+		EA5D873F1EE4196800266D96 /* LSDCourseListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCourseListView.h; sourceTree = "<group>"; };
+		EA5D87401EE4196800266D96 /* LSDCourseListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCourseListView.m; sourceTree = "<group>"; };
+		EA5D87411EE4196800266D96 /* LSDCourseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDCourseTableViewCell.h; sourceTree = "<group>"; };
+		EA5D87421EE4196800266D96 /* LSDCourseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDCourseTableViewCell.m; sourceTree = "<group>"; };
+		EA5D87431EE4196800266D96 /* LSDCourseTableViewCellXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDCourseTableViewCellXib.xib; sourceTree = "<group>"; };
+		EA5D87441EE4196800266D96 /* LSDHeaderItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDHeaderItemView.h; sourceTree = "<group>"; };
+		EA5D87451EE4196800266D96 /* LSDHeaderItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDHeaderItemView.m; sourceTree = "<group>"; };
+		EA5D87461EE4196800266D96 /* LSDHeaderItemViewXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDHeaderItemViewXib.xib; sourceTree = "<group>"; };
+		EA5D87471EE4196800266D96 /* LSDTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSDTimeTableViewCell.h; sourceTree = "<group>"; };
+		EA5D87481EE4196800266D96 /* LSDTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSDTimeTableViewCell.m; sourceTree = "<group>"; };
+		EA5D87491EE4196800266D96 /* LSDTimeTableViewCellXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LSDTimeTableViewCellXib.xib; sourceTree = "<group>"; };
+		EA5D874A1EE4196800266D96 /* Math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math.h; sourceTree = "<group>"; };
+		EA5D874B1EE4196800266D96 /* Math.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math.m; sourceTree = "<group>"; };
+		EA5D874C1EE4196800266D96 /* NSCalendar+LSDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSCalendar+LSDExtension.h"; sourceTree = "<group>"; };
+		EA5D874D1EE4196800266D96 /* NSCalendar+LSDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSCalendar+LSDExtension.m"; sourceTree = "<group>"; };
+		EA5D874E1EE4196800266D96 /* UITableViewCell+LSDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+LSDExtension.h"; sourceTree = "<group>"; };
+		EA5D874F1EE4196800266D96 /* UITableViewCell+LSDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+LSDExtension.m"; sourceTree = "<group>"; };
+		EA5D87501EE4196800266D96 /* UIView+LSDExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LSDExtension.h"; sourceTree = "<group>"; };
+		EA5D87511EE4196800266D96 /* UIView+LSDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LSDExtension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5D86DC1EE3B3E400266D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D86F51EE3B3E400266D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D87001EE3B3E400266D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5D86D61EE3B3E400266D96 = {
+			isa = PBXGroup;
+			children = (
+				EA5D86E11EE3B3E400266D96 /* LSDCourseListView */,
+				EA5D86FB1EE3B3E400266D96 /* LSDCourseListViewTests */,
+				EA5D87061EE3B3E400266D96 /* LSDCourseListViewUITests */,
+				EA5D86E01EE3B3E400266D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5D86E01EE3B3E400266D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D86DF1EE3B3E400266D96 /* LSDCourseListView.app */,
+				EA5D86F81EE3B3E400266D96 /* LSDCourseListViewTests.xctest */,
+				EA5D87031EE3B3E400266D96 /* LSDCourseListViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5D86E11EE3B3E400266D96 /* LSDCourseListView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D873C1EE4196800266D96 /* LSDCourseListView */,
+				EA5D872A1EE3CF2800266D96 /* Reveal.framework */,
+				EA5D86E51EE3B3E400266D96 /* AppDelegate.h */,
+				EA5D86E61EE3B3E400266D96 /* AppDelegate.m */,
+				EA5D86E81EE3B3E400266D96 /* ViewController.h */,
+				EA5D86E91EE3B3E400266D96 /* ViewController.m */,
+				EA5D87181EE3B5D700266D96 /* PrefixHeader.pch */,
+				EA5D86EB1EE3B3E400266D96 /* Main.storyboard */,
+				EA5D86EE1EE3B3E400266D96 /* Assets.xcassets */,
+				EA5D86F01EE3B3E400266D96 /* LaunchScreen.storyboard */,
+				EA5D86F31EE3B3E400266D96 /* Info.plist */,
+				EA5D86E21EE3B3E400266D96 /* Supporting Files */,
+			);
+			path = LSDCourseListView;
+			sourceTree = "<group>";
+		};
+		EA5D86E21EE3B3E400266D96 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D86E31EE3B3E400266D96 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EA5D86FB1EE3B3E400266D96 /* LSDCourseListViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D86FC1EE3B3E400266D96 /* LSDCourseListViewTests.m */,
+				EA5D86FE1EE3B3E400266D96 /* Info.plist */,
+			);
+			path = LSDCourseListViewTests;
+			sourceTree = "<group>";
+		};
+		EA5D87061EE3B3E400266D96 /* LSDCourseListViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D87071EE3B3E400266D96 /* LSDCourseListViewUITests.m */,
+				EA5D87091EE3B3E400266D96 /* Info.plist */,
+			);
+			path = LSDCourseListViewUITests;
+			sourceTree = "<group>";
+		};
+		EA5D873C1EE4196800266D96 /* LSDCourseListView */ = {
+			isa = PBXGroup;
+			children = (
+				EA5D873D1EE4196800266D96 /* LSDCourseListModel.h */,
+				EA5D873E1EE4196800266D96 /* LSDCourseListModel.m */,
+				EA5D873F1EE4196800266D96 /* LSDCourseListView.h */,
+				EA5D87401EE4196800266D96 /* LSDCourseListView.m */,
+				EA5D87411EE4196800266D96 /* LSDCourseTableViewCell.h */,
+				EA5D87421EE4196800266D96 /* LSDCourseTableViewCell.m */,
+				EA5D87431EE4196800266D96 /* LSDCourseTableViewCellXib.xib */,
+				EA5D87441EE4196800266D96 /* LSDHeaderItemView.h */,
+				EA5D87451EE4196800266D96 /* LSDHeaderItemView.m */,
+				EA5D87461EE4196800266D96 /* LSDHeaderItemViewXib.xib */,
+				EA5D87471EE4196800266D96 /* LSDTimeTableViewCell.h */,
+				EA5D87481EE4196800266D96 /* LSDTimeTableViewCell.m */,
+				EA5D87491EE4196800266D96 /* LSDTimeTableViewCellXib.xib */,
+				EA5D874A1EE4196800266D96 /* Math.h */,
+				EA5D874B1EE4196800266D96 /* Math.m */,
+				EA5D874C1EE4196800266D96 /* NSCalendar+LSDExtension.h */,
+				EA5D874D1EE4196800266D96 /* NSCalendar+LSDExtension.m */,
+				EA5D874E1EE4196800266D96 /* UITableViewCell+LSDExtension.h */,
+				EA5D874F1EE4196800266D96 /* UITableViewCell+LSDExtension.m */,
+				EA5D87501EE4196800266D96 /* UIView+LSDExtension.h */,
+				EA5D87511EE4196800266D96 /* UIView+LSDExtension.m */,
+			);
+			path = LSDCourseListView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA5D86DE1EE3B3E400266D96 /* LSDCourseListView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D870C1EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListView" */;
+			buildPhases = (
+				EA5D86DB1EE3B3E400266D96 /* Sources */,
+				EA5D86DC1EE3B3E400266D96 /* Frameworks */,
+				EA5D86DD1EE3B3E400266D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LSDCourseListView;
+			productName = LSDCourseListView;
+			productReference = EA5D86DF1EE3B3E400266D96 /* LSDCourseListView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA5D86F71EE3B3E400266D96 /* LSDCourseListViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D870F1EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListViewTests" */;
+			buildPhases = (
+				EA5D86F41EE3B3E400266D96 /* Sources */,
+				EA5D86F51EE3B3E400266D96 /* Frameworks */,
+				EA5D86F61EE3B3E400266D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5D86FA1EE3B3E400266D96 /* PBXTargetDependency */,
+			);
+			name = LSDCourseListViewTests;
+			productName = LSDCourseListViewTests;
+			productReference = EA5D86F81EE3B3E400266D96 /* LSDCourseListViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA5D87021EE3B3E400266D96 /* LSDCourseListViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5D87121EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListViewUITests" */;
+			buildPhases = (
+				EA5D86FF1EE3B3E400266D96 /* Sources */,
+				EA5D87001EE3B3E400266D96 /* Frameworks */,
+				EA5D87011EE3B3E400266D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5D87051EE3B3E400266D96 /* PBXTargetDependency */,
+			);
+			name = LSDCourseListViewUITests;
+			productName = LSDCourseListViewUITests;
+			productReference = EA5D87031EE3B3E400266D96 /* LSDCourseListViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5D86D71EE3B3E400266D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = OnePiece;
+				TargetAttributes = {
+					EA5D86DE1EE3B3E400266D96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+					EA5D86F71EE3B3E400266D96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5D86DE1EE3B3E400266D96;
+					};
+					EA5D87021EE3B3E400266D96 = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EA5D86DE1EE3B3E400266D96;
+					};
+				};
+			};
+			buildConfigurationList = EA5D86DA1EE3B3E400266D96 /* Build configuration list for PBXProject "LSDCourseListView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA5D86D61EE3B3E400266D96;
+			productRefGroup = EA5D86E01EE3B3E400266D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5D86DE1EE3B3E400266D96 /* LSDCourseListView */,
+				EA5D86F71EE3B3E400266D96 /* LSDCourseListViewTests */,
+				EA5D87021EE3B3E400266D96 /* LSDCourseListViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5D86DD1EE3B3E400266D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D87551EE4196800266D96 /* LSDCourseTableViewCellXib.xib in Resources */,
+				EA5D87571EE4196800266D96 /* LSDHeaderItemViewXib.xib in Resources */,
+				EA5D86F21EE3B3E400266D96 /* LaunchScreen.storyboard in Resources */,
+				EA5D86EF1EE3B3E400266D96 /* Assets.xcassets in Resources */,
+				EA5D87591EE4196800266D96 /* LSDTimeTableViewCellXib.xib in Resources */,
+				EA5D86ED1EE3B3E400266D96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D86F61EE3B3E400266D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D87011EE3B3E400266D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5D86DB1EE3B3E400266D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D87541EE4196800266D96 /* LSDCourseTableViewCell.m in Sources */,
+				EA5D87521EE4196800266D96 /* LSDCourseListModel.m in Sources */,
+				EA5D86EA1EE3B3E400266D96 /* ViewController.m in Sources */,
+				EA5D86E71EE3B3E400266D96 /* AppDelegate.m in Sources */,
+				EA5D875D1EE4196800266D96 /* UIView+LSDExtension.m in Sources */,
+				EA5D875C1EE4196800266D96 /* UITableViewCell+LSDExtension.m in Sources */,
+				EA5D875B1EE4196800266D96 /* NSCalendar+LSDExtension.m in Sources */,
+				EA5D87531EE4196800266D96 /* LSDCourseListView.m in Sources */,
+				EA5D86E41EE3B3E400266D96 /* main.m in Sources */,
+				EA5D87581EE4196800266D96 /* LSDTimeTableViewCell.m in Sources */,
+				EA5D875A1EE4196800266D96 /* Math.m in Sources */,
+				EA5D87561EE4196800266D96 /* LSDHeaderItemView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D86F41EE3B3E400266D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D86FD1EE3B3E400266D96 /* LSDCourseListViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5D86FF1EE3B3E400266D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5D87081EE3B3E400266D96 /* LSDCourseListViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5D86FA1EE3B3E400266D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5D86DE1EE3B3E400266D96 /* LSDCourseListView */;
+			targetProxy = EA5D86F91EE3B3E400266D96 /* PBXContainerItemProxy */;
+		};
+		EA5D87051EE3B3E400266D96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5D86DE1EE3B3E400266D96 /* LSDCourseListView */;
+			targetProxy = EA5D87041EE3B3E400266D96 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA5D86EB1EE3B3E400266D96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5D86EC1EE3B3E400266D96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA5D86F01EE3B3E400266D96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA5D86F11EE3B3E400266D96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA5D870A1EE3B3E400266D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EA5D870B1EE3B3E400266D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA5D870D1EE3B3E400266D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSDCourseListView",
+				);
+				GCC_PREFIX_HEADER = /Users/shenzhouruida/LSDCourseListView/LSDCourseListView/PrefixHeader.pch;
+				INFOPLIST_FILE = LSDCourseListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA5D870E1EE3B3E400266D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LSDCourseListView",
+				);
+				GCC_PREFIX_HEADER = /Users/shenzhouruida/LSDCourseListView/LSDCourseListView/PrefixHeader.pch;
+				INFOPLIST_FILE = LSDCourseListView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lz",
+					"-framework",
+					Reveal,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA5D87101EE3B3E400266D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDCourseListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDCourseListView.app/LSDCourseListView";
+			};
+			name = Debug;
+		};
+		EA5D87111EE3B3E400266D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LSDCourseListViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSDCourseListView.app/LSDCourseListView";
+			};
+			name = Release;
+		};
+		EA5D87131EE3B3E400266D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSDCourseListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDCourseListView;
+			};
+			name = Debug;
+		};
+		EA5D87141EE3B3E400266D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LSDCourseListViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = OnePiece.LSDCourseListViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LSDCourseListView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5D86DA1EE3B3E400266D96 /* Build configuration list for PBXProject "LSDCourseListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D870A1EE3B3E400266D96 /* Debug */,
+				EA5D870B1EE3B3E400266D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5D870C1EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D870D1EE3B3E400266D96 /* Debug */,
+				EA5D870E1EE3B3E400266D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5D870F1EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D87101EE3B3E400266D96 /* Debug */,
+				EA5D87111EE3B3E400266D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5D87121EE3B3E400266D96 /* Build configuration list for PBXNativeTarget "LSDCourseListViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5D87131EE3B3E400266D96 /* Debug */,
+				EA5D87141EE3B3E400266D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5D86D71EE3B3E400266D96 /* Project object */;
+}

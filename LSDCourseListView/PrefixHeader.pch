@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  LSDCourseListView
+//
+//  Created by 神州锐达 on 2017/6/4.
+//  Copyright © 2017年 OnePiece. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define RGB(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
+
+#import "Math.h"
+#import "UITableViewCell+LSDExtension.h"
+#import "UIView+LSDExtension.h"
+#import "NSCalendar+LSDExtension.h"
+
+///加载xib
+#define KLoadXibView(obj)  [[[NSBundle mainBundle] loadNibNamed:obj owner:nil options:nil] lastObject]
+
+///屏幕宽和高
+#define ScreenWidth  [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+#endif /* PrefixHeader_pch */
